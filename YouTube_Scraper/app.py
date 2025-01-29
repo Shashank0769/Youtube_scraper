@@ -6,7 +6,7 @@ import os
 app = Flask(__name__)
 
 # Replace with your API Key
-API_KEY = "AIzaSyABWI-tIvyy0QXHAn3HPGOAn3KQ1KvoKAw"
+API_KEY = "Use_your_Google_cloud_ApiKey"
 
 # Initialize YouTube API client
 youtube = build('youtube', 'v3', developerKey=API_KEY)
